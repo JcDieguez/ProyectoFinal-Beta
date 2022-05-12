@@ -1,0 +1,54 @@
+.navbar-nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.btn {
+    padding: 8px 26px;
+}
+
+.btn-brand {
+    border-color: var(--brand);
+    background-color: var(--brand);
+    color: #fff;
+}
+
+.btn-brand:hover {
+    background-color: #d64022;
+    border-color: #d64022;
+    color: #fff;
+}
+
+
+.button {
+    text-align: center;
+}
+
+.img1 {
+    height: 550px;
+}
+
+.col {
+    background-color: #101418;
+}
+
+/* slide */
+.slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/arnold3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
