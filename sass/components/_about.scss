@@ -1,0 +1,82 @@
+.d_flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about {
+    background-color: #fff;
+    padding-top: 80px;
+}
+
+.about .titlepage {
+    max-width: inherit;
+    margin-bottom: 30px;
+}
+
+.about .titlepage {
+    text-align: left;
+    padding-bottom: 0;
+    max-width: 443px;
+    width: 100%;
+    float: right;
+}
+
+.about .titlepage h2 {
+    margin-bottom: 25px;
+}
+
+.titlepage h2 {
+    font-size: 40px;
+    color: #191919;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 0;
+    display: inline-block;
+}
+
+.about .titlepage p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #090808;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #191919;
+    color: #fff;
+    padding: 8px 0px;
+    width: 100%;
+    max-width: 168px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.about_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.about_img {
+    overflow: hidden;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img:hover {
+    transform: scale(1.2);
+}
