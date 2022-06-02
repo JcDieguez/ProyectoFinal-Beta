@@ -10,15 +10,6 @@ ul {
     padding: 0;
 }
 
-.brand {
-    text-align: center;
-    color: #43545a;
-}
-
-.brand span {
-    color: #fff;
-}
-
 .wrapper {
     box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }
@@ -28,7 +19,7 @@ ul {
 }
 
 .company-info {
-    background: #c9e6ff;
+    background: #98bcc5;
 }
 
 .company-info h3,
@@ -52,7 +43,7 @@ ul {
     display: block;
 }
 
-.contact form p {
+.contact form div {
     margin: 0;
 }
 
@@ -69,7 +60,7 @@ ul {
 }
 
 .contact form button {
-    background: #c9e6ff;
+    background: #98bcc5;
     border: 0;
     text-transform: uppercase;
 }

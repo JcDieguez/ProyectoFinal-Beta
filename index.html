@@ -23,7 +23,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Bienvenido</a>
+                <a class="navbar-logo" href="index.html">
+                    <img src="img/logo.png">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +45,6 @@
                             <a class="nav-link" href="pages/sobremi.html">Sobre Mi</a>
                         </li>
                         <a class="btn btn-brand ms-lg-3" href="pages/contacto.html">Contactame</a>
-
                     </ul>
                 </div>
             </div>
@@ -67,51 +68,76 @@
             </div>
     </main>
 
-
-    <!--=================== Tarjetas animadas Giratorias =====================-->
-    <section>
-        <h4 class="h4-texto">Encontras información adicional</h4>
-        <div class="contenedor">
-            <div class="contenedor_tarjeta">
-                <a href="#">
-                    <figure id="tarjeta">
-                        <img src="img/promo2.jpg" class="frontal" alt="Tarjeta con Promocion de gimnasio 2x1">
-                        <figcaption class="trasera">
-                            <h2 class="titulo">El cuerpo de tus sueños</h2>
-                            <hr>
-                            <p>Nuevas promociones 2x1. Enterate de todo!</p>
-                        </figcaption>
-                    </figure>
-                </a>
-            </div>
-
-            <div class="contenedor_tarjeta">
-                <a href="#">
-                    <figure id="tarjeta">
-                        <img src="img/promo3.png" class="frontal" alt="Tarjeta con Horarios de Musculación">
-                        <figcaption class="trasera">
-                            <h2 class="titulo">Horarios Musculación</h2>
-                            <hr>
-                            <p>Te esperamos de lunes a viernes en gymuscu de Lunes a Viernes de 6AM a 22PM</p>
-                        </figcaption>
-                    </figure>
-                </a>
-            </div>
-
-            <div class="contenedor_tarjeta">
-                <a href="#">
-                    <figure id="tarjeta">
-                        <img src="img/promo.png" class="frontal" alt="Tarjeta de promo 20% off gym">
-                        <figcaption class="trasera">
-                            <h2 class="titulo">Fitness GYM 20% OFF</h2>
-                            <hr>
-                            <p>La membresia incluye spinning, crossfit, pesas y cardio. Enterate de todo!</p>
-                        </figcaption>
-                    </figure>
-                </a>
+    <!--========= about ============-->
+    <div class="about">
+        <div class="container">
+            <div class="row d_flex">
+                <div class="col-md-5">
+                    <div class="titlepage">
+                        <h2>Chris Bumstead</h2>
+                        <p>Christopher Adam Bumstead (nacido el 2 de febrero de 1995) es un culturista profesional
+                            canadiense de la IFBB. Bumstead es el actual ganador del Mr. Olympia Classic Physique,
+                            habiendo ganado la competencia en 2019, 2020 y 2021.</p>
+                        <a class="read_more" href="pages/sobremi.html">Leer más</a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="about_img">
+                        <figure><img src="img/cbum1.jpg" alt="entrenador_posando_con_su_fisico_actual" /></figure>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!--================ Entrenadores =================-->
+    <div class="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h5>Somos tus entrenadores</h5>
+                        <p>Profesionales con Certificación Oficial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="trai" class="trainer_box">
+                        <div class="trainer_img">
+                            <figure><img src="img/cbum.jpg" alt="entrenador_culturista_hombre" /></figure>
+                        </div>
+                        <div class="trainer">
+                            <h3>Chris Bumstead</h3>
+                            <p>Culturista</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="trai" class="trainer_box">
+                        <div class="trainer_img">
+                            <figure><img src="img/mujerfitt.jpg" alt="entrenadora_personal_trainer_mujer" /></figure>
+                        </div>
+                        <div class="trainer">
+                            <h3>limijack </h3>
+                            <p>Personal Trainer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="trai" class="trainer_box">
+                        <div class="trainer_img">
+                            <figure><img src="img/davidlaid.jpg" alt="entrenador_personal_trainer_hombre" /></figure>
+                        </div>
+                        <div class="trainer">
+                            <h3>David Laid</h3>
+                            <p>Personal Trainer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--=============== Footer =====================-->
     <footer>
@@ -122,10 +148,10 @@
                         <h4 class="navbar-brand">Redes Sociales</h4>
                         <p>Siguenos en nuestras redes sociales</p>
                         <div class="col-auto social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                            <a href="#"><i class='bx bxl-pinterest'></i></a>
+                            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://twitter.com/"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://ar.pinterest.com/"><i class='bx bxl-pinterest'></i></a>
                         </div>
                     </div>
                 </div>
